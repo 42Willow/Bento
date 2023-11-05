@@ -66,7 +66,7 @@ const CONFIG = {
 		{
 			id: '3',
 			name: 'Monkeytype',
-			icon: 'github',
+			icon: 'keyboard',
 			link: 'https://github.com',
 		},
 		{
@@ -169,8 +169,16 @@ const CONFIG = {
 					link: 'https://www.reddit.com/r/unixporn/',
 				},
 				{
+					name: 'Discord',
+					link: 'https://discord.com/app',
+				},
+				{
 					name: 'GitHub Notifications',
 					link: 'https://github.com/notifications',
+				},
+				{
+					name: 'GitHub Repos',
+					link: 'https://github.com/42Willow?tab=repositories',
 				},
 			],
 		},
