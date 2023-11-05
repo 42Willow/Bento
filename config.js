@@ -53,7 +53,7 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
+			name: 'GitHub',
 			icon: 'github',
 			link: 'https://github.com/',
 		},
@@ -65,7 +65,7 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'GitHub',
+			name: 'Monkeytype',
 			icon: 'github',
 			link: 'https://github.com',
 		},
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Element',
+			icon: 'message-circle',
+			link: 'https://app.element.io',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'YouTube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -169,16 +169,8 @@ const CONFIG = {
 					link: 'https://www.reddit.com/r/unixporn/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'GitHub Notifications',
+					link: 'https://github.com/notifications',
 				},
 			],
 		},
