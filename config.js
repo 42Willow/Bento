@@ -20,20 +20,20 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Go to sleep!',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '4553865ce66b5a0a8e72b406e9f861a8', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-37.732760',
+	defaultLongitude: '145.091250',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'GitHub',
+			icon: 'github',
+			link: 'https://github.com',
 		},
 		{
 			id: '4',
@@ -89,44 +89,44 @@ const CONFIG = {
 		},
 	],
 
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
-	],
+	// secondButtonsContainer: [
+	// 	{
+	// 		id: '1',
+	// 		name: 'Music',
+	// 		icon: 'headphones',
+	// 		link: 'https://open.spotify.com',
+	// 	},
+	// 	{
+	// 		id: '2',
+	// 		name: 'twitter',
+	// 		icon: 'twitter',
+	// 		link: 'https://twitter.com/',
+	// 	},
+	// 	{
+	// 		id: '3',
+	// 		name: 'bot',
+	// 		icon: 'bot',
+	// 		link: 'https://discord.com/app',
+	// 	},
+	// 	{
+	// 		id: '4',
+	// 		name: 'Amazon',
+	// 		icon: 'shopping-bag',
+	// 		link: 'https://amazon.com/',
+	// 	},
+	// 	{
+	// 		id: '5',
+	// 		name: 'Hashnode',
+	// 		icon: 'pen-tool',
+	// 		link: 'https://hashnode.com/',
+	// 	},
+	// 	{
+	// 		id: '6',
+	// 		name: 'Figma',
+	// 		icon: 'figma',
+	// 		link: 'https://figma.com/',
+	// 	},
+	// ],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
@@ -143,16 +143,20 @@ const CONFIG = {
 					link: 'spotify:playlist:6NsxPA4ObziLPiYwVlQgto',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Hopefully™️',
+					link: 'spotify:playlist:01SnLwTKI8Js7uKrTbkiQg',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '0b101010',
+					link: 'spotify:playlist:423AlDp9TTHMWSleodxb0f',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Lofi Playlist',
+					link: 'spotify:playlist:7mBY1r0b9ZtCOLN9QJNO44',
+				},
+				{
+					name: 'Background Music',
+					link: 'spotify:playlist:7mBY1r0b9ZtCOLN9QJNO44',
 				},
 			],
 		},
@@ -161,8 +165,8 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'r/unixporn',
+					link: 'https://www.reddit.com/r/unixporn/',
 				},
 				{
 					name: 'Dribbble',
@@ -181,50 +185,50 @@ const CONFIG = {
 	],
 
 	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
-				},
-			],
-		},
-	],
+	// secondListsContainer: [
+	// 	{
+	// 		icon: 'binary',
+	// 		id: '1',
+	// 		links: [
+	// 			{
+	// 				name: 'Spotify',
+	// 				link: 'https://www.spotify.com',
+	// 			},
+	// 			{
+	// 				name: 'Reddit',
+	// 				link: 'https://www.reddit.com',
+	// 			},
+	// 			{
+	// 				name: 'Hashnode',
+	// 				link: 'https://www.hashnode.com',
+	// 			},
+	// 			{
+	// 				name: 'Pocket',
+	// 				link: 'https://www.pocket.com',
+	// 			},
+	// 		],
+	// 	},
+	// 	{
+	// 		icon: 'github',
+	// 		id: '2',
+	// 		links: [
+	// 			{
+	// 				name: 'Front',
+	// 				link: 'https://www.reddit.com/r/Frontend/',
+	// 			},
+	// 			{
+	// 				name: 'Rust',
+	// 				link: 'https://www.reddit.com/r/rust/',
+	// 			},
+	// 			{
+	// 				name: 'Go',
+	// 				link: 'https://www.reddit.com/r/golang/',
+	// 			},
+	// 			{
+	// 				name: 'Repos',
+	// 				link: 'https://github.com/migueravila',
+	// 			},
+	// 		],
+	// 	},
+	// ],
 };
