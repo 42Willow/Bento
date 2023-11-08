@@ -67,7 +67,7 @@ const CONFIG = {
 			id: '3',
 			name: 'Monkeytype',
 			icon: 'keyboard',
-			link: 'https://github.com',
+			link: 'https://monkeytype.com',
 		},
 		{
 			id: '4',
